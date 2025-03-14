@@ -17,13 +17,13 @@ Data https://drive.google.com/drive/folders/1QnJ3ify3CK2_eTX7T35ZY2TcpX4eEVRM?us
 https://drive.google.com/drive/folders/1dqgYg9yUl70pzBY6hTmSWPMTrXKDplBr?usp=sharing  
 
 --------------------------- **Evaluating SFO-solver performance with trained model weights** -----------------------------  
-── `eval_test.py`: Run SFO-solver and simulate reconstructions with the provided model weights on single-plane test data.  
+── `eval_test.py`: Run SFO-solver and simulate reconstructions with provided weights on single-plane test data.  
 ```python
 # Traverse all test data across three wavelengths and 85-115mm distances with 1mm interval
 python eval_test.py
 ```
 
-── `eval_dual.py`: Run SFO-solver and simulate 3D reconstructions with the provided model weights on dual-plane test data.  
+── `eval_dual.py`: Run SFO-solver and simulate 3D reconstructions with provided weights on dual-plane test data.  
 ```python
 # Place the two objects at 85mm and 115mm respectively
 # name indicates the object to choose
