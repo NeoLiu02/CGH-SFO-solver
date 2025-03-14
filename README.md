@@ -14,7 +14,7 @@ Model weights https://drive.google.com/drive/folders/1p6oGe6SAp2JGSmdL7CtNRSu_-b
 Data https://drive.google.com/drive/folders/1QnJ3ify3CK2_eTX7T35ZY2TcpX4eEVRM?usp=sharing  
 
 ── `Dual_plane/`: Data for dual-plane 3D holographic projection that is shown in the main manuscript Section 2.5 and Supplementary Note 5.
-Data https://drive.google.com/drive/folders/1dqgYg9yUl70pzBY6hTmSWPMTrXKDplBr?usp=sharing  
+https://drive.google.com/drive/folders/1dqgYg9yUl70pzBY6hTmSWPMTrXKDplBr?usp=sharing  
 
 ------------------------------------------ **Evaluating SFO-solver performance with trained model weights** -------------------------------------------  
 ── `eval_test.py`: Run SFO-solver and simulate reconstructions with the provided model weights on single-plane test data.  
