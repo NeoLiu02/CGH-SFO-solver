@@ -5,6 +5,7 @@ Already submitted to Nature Communications; Submission date: 16/12/2024
 
 ## Structure and usage   
 ── `model/`: trained models for r(638nm), g(520nm), b(450nm) channels (FourierNet_flex_100.pth)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weights can be accessed from https://drive.google.com/drive/folders/1p6oGe6SAp2JGSmdL7CtNRSu_-bFknfKS?usp=sharing  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;── `FourierNet.py`: contains modules of SFO-solver.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input: targeted intensity & targeted distance (85mm-115mm); Output: phase-only hologram  
