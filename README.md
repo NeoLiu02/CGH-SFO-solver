@@ -1,7 +1,8 @@
 # CGH-SFO-solver (Updated 03/13/2025)
 Propagation-adaptive 4K computer-generated holography using physics-constrained spatial and Fourier neural operators  
 A copy that contains the reported data in the manuscript can be accesssed from https://drive.google.com/drive/folders/17h8pox1Wh5M2rPspZ6HLve3HG38B9BC0?usp=sharing  
-Already submitted to Nature Communications; Submission date: 16/12/2024
+Already submitted to Nature Communications; Submission date: 16/12/2024  
+(Model weights are curretly not for public access since the paper is under review)
 
 ## Structure and usage   
 ── `model/`: trained models for r(638nm), g(520nm), b(450nm) channels (FourierNet_flex_100.pth)  
