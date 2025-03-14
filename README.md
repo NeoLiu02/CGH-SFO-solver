@@ -16,7 +16,7 @@ Data https://drive.google.com/drive/folders/1QnJ3ify3CK2_eTX7T35ZY2TcpX4eEVRM?us
 ── `Dual_plane/`: Data for dual-plane 3D holographic projection that is shown in the main manuscript Section 2.5 and Supplementary Note 5.
 https://drive.google.com/drive/folders/1dqgYg9yUl70pzBY6hTmSWPMTrXKDplBr?usp=sharing  
 
--------------------------------- **Evaluating SFO-solver performance with trained model weights** ----------------------------------  
+--------------------------- **Evaluating SFO-solver performance with trained model weights** -----------------------------  
 ── `eval_test.py`: Run SFO-solver and simulate reconstructions with the provided model weights on single-plane test data.  
 ```python
 # Traverse all test data across three wavelengths and 85-115mm distances with 1mm interval
@@ -35,7 +35,7 @@ python eval_dual.py --channel=0 --name=symbol --distance=[85,115] # red:0, green
 python compute_criterion_testdata.py
 ```
 
---------------------------------------------------------- **Training SFO-solver** -----------------------------------------------------------  
+---------------------------------------------------- **Training SFO-solver** ------------------------------------------------------  
 ── `flex_train.py`: Main code to train SFO-solver based on self-supervised learning.  
 ```python
 # Train on channel 0 (red)
