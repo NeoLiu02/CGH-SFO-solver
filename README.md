@@ -35,3 +35,19 @@ python compute_criterion_testdata.py
 ```
 
 ------------------------------------------------------------------- **Training SFO-solver** --------------------------------------------------------------------  
+── `flex_train.py`: Main code to train SFO-solver based on self-supervised learning.  
+```python
+# Train on channel 0 (red)
+# Sample distance from 85mm to 115mm
+# Use the merge loss mentioned in the manuscript
+python flex_train.py --channel=0 --distance=[85,115] --loss=Merge2
+```
+
+**Utility functions**  
+── `loss.py`: Loss functions for training
+
+── `prop.py`: Simulated propagation functions
+
+── `dataset.py`: Dataset preparation for training
+
+── `distance_generation.py`: Randomly sample distances to compose dataset
