@@ -5,16 +5,16 @@ Already submitted to Nature Communications; Submission date: 16/12/2024
 
 ## Structure and usage   
 ── `model/`: trained models for r(638nm), g(520nm), b(450nm) channels (FourierNet_flex_100.pth)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weights can be accessed from https://drive.google.com/drive/folders/1p6oGe6SAp2JGSmdL7CtNRSu_-bFknfKS?usp=sharing  
+Weights can be accessed from https://drive.google.com/drive/folders/1p6oGe6SAp2JGSmdL7CtNRSu_-bFknfKS?usp=sharing  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;── `FourierNet.py`: contains modules of SFO-solver.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input: targeted intensity & targeted distance (85mm-115mm); Output: phase-only hologram  
 
 ── `testdata/`: testdata and criterion calculation(PSNR&SSIM) that is shown in the manuscript Section 2.3  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data can be accessed from https://drive.google.com/drive/folders/1QnJ3ify3CK2_eTX7T35ZY2TcpX4eEVRM?usp=sharing  
+Data can be accessed from https://drive.google.com/drive/folders/1QnJ3ify3CK2_eTX7T35ZY2TcpX4eEVRM?usp=sharing  
 
-── `Dual_plane/`: Data for dual-plane 3D holographic projection that is shown in the main manuscript Section 2.5 and Supplementary Note 5  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data can be accessed from https://drive.google.com/drive/folders/1dqgYg9yUl70pzBY6hTmSWPMTrXKDplBr?usp=sharing  
+── `Dual_plane/`: Data for dual-plane 3D holographic projection that is shown in the main manuscript Section 2.5 and Supplementary Note 5.
+Data can be accessed from https://drive.google.com/drive/folders/1dqgYg9yUl70pzBY6hTmSWPMTrXKDplBr?usp=sharing  
 
 ------------------------------------------ **Evaluating SFO-solver performance with trained model weights** -------------------------------------------  
 ── `eval_test.py`: Run SFO-solver and simulate reconstructions with the provided model weights on single-plane test data.  
