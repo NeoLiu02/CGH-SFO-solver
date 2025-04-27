@@ -9,15 +9,19 @@ Current state: major revision. Hope to meet the public soon!
 ── `model/`: trained models for r(638nm), g(520nm), b(450nm) channels (FourierNet_flex_100.pth)  
 Model weights https://drive.google.com/drive/folders/1p6oGe6SAp2JGSmdL7CtNRSu_-bFknfKS?usp=sharing  
 
+  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;── `FourierNet.py`: contains modules of SFO-solver.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input: targeted intensity & targeted distance (85mm-115mm); Output: phase-only hologram  
 
-── `testdata/`: testdata and criterion calculation(PSNR&SSIM) that is shown in the manuscript Section 2.3  
+  
+── `testdata/`: testdata that readers can try out on, criterion calculation(PSNR&SSIM) can also be found in the link  
 Data https://drive.google.com/drive/folders/1QnJ3ify3CK2_eTX7T35ZY2TcpX4eEVRM?usp=sharing  
 
+  
 ── `Dual_plane/`: Data for dual-plane 3D holographic projection that is shown in the main manuscript Section 2.5 and Supplementary Note 5.
 https://drive.google.com/drive/folders/1dqgYg9yUl70pzBY6hTmSWPMTrXKDplBr?usp=sharing  
 
+  
 --------------------------- **Evaluating SFO-solver performance with trained model weights** -----------------------------  
 ── `eval_test.py`: Run SFO-solver and simulate reconstructions with provided weights on single-plane test data.  
 ```python
@@ -25,6 +29,7 @@ https://drive.google.com/drive/folders/1dqgYg9yUl70pzBY6hTmSWPMTrXKDplBr?usp=sha
 python eval_test.py
 ```
 
+  
 ── `eval_dual.py`: Run SFO-solver and simulate 3D reconstructions with provided weights on dual-plane test data.  
 ```python
 # Place the two objects at 85mm and 115mm respectively
@@ -32,11 +37,13 @@ python eval_test.py
 python eval_dual.py --channel=0 --name=symbol --distance=[85,115] # red:0, green:1, blue:2
 ```
 
+  
 ── `compute_criterion_testdata.py`: PSNR and SSIM calculation for test data.  
 ```python
 python compute_criterion_testdata.py
 ```
 
+  
 ---------------------------------------------------- **Training SFO-solver** ------------------------------------------------------  
 ── `flex_train.py`: Main code to train SFO-solver based on self-supervised learning.  
 ```python
@@ -46,6 +53,7 @@ python compute_criterion_testdata.py
 python flex_train.py --channel=0 --distance=[85,115] --loss=Merge2
 ```
 
+  
 **Utility functions**  
 ── `loss.py`: Loss functions for training
 
