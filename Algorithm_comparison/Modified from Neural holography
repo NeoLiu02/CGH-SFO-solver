@@ -1,0 +1,12 @@
+Modified from https://github.com/computational-imaging/neural-holography
+
+@article{Peng:2020:NeuralHolography,
+author = {Y. Peng, S. Choi, N. Padmanaban, G. Wetzstein},
+title = {Neural Holography with Camera-in-the-loop Training},
+journal = {ACM Trans. Graph. (SIGGRAPH Asia)},
+issue = {39},
+number = {6},
+year = {2020},
+}
+
+Special thanks to Dr. Peng.
