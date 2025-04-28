@@ -63,5 +63,5 @@ python flex_train.py --channel=0 --distance=[85,115] --loss=Merge2
 
 ── `distance_generation.py`: Randomly sample distances to compose dataset
 
-── Algorithm_comparison: Running code for DPAC, SGD, and GS algorithm   
+── Algorithm_comparison: Running code for DPAC, SGD, and GS algorithms   
 Modified from https://github.com/computational-imaging/neural-holography
