@@ -1,1 +1,3 @@
-In this folder we uploaded some additional results regarding the SFO-solver enabled holographic display of more complex natural scenes
+In this folder we uploaded some additional results regarding the SFO-solver enabled holographic display of more complex natural scenes.
+
+The raw contents except for the stanford dragon in "Complex scenes (Note 9).png" are created by Ninghe Liu using Google Gemini.
